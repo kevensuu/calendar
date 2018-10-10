@@ -1,0 +1,11 @@
+{
+    "name": "kevensuu/calendar",
+    "description": "calendar",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Calendar\\": "src/Calendar"
+        }
+    }
+}
