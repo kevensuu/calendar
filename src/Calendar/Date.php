@@ -60,7 +60,7 @@ class Date
         return $gan.$zhi.'年';
     }
 
-    protected function dayList($solarYear, $solarMonth)
+    public function dayList($solarYear, $solarMonth)
     {
         $firstDayWeek = date('w', strtotime("{$solarYear}-{$solarMonth}-1"));
 
